@@ -29,7 +29,7 @@ for line in sentences:
 max_seq_len = max([len(x) for x in input_sequences])
 
 # Load trained model
-model = tf.keras.models.load_model("model.h5")
+model = tf.keras.models.load_model("my_model.keras")
 
 # Text generation function
 def generate_text(seed_text, next_words, temperature):
