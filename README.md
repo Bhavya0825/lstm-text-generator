@@ -10,11 +10,12 @@ It takes a text prompt and predicts the next words based on the training dataset
 - Hugging Face Spaces (for deployment)
 
 ## 🚀 Try It Live
-👉 [Check the live demo on Hugging Face](https://huggingface.co/spaces/bhavya0825/text_generation_using_lstm)
+👉 [Check the live demo on Hugging Face](https://huggingface.co/spaces/bhavya0825/lstm_text_generator)
 
 ## 📁 Files
 - `app.py`: Gradio interface to run the model
-- `model.h5`: Trained LSTM model
+- `text_generation_lstm_model.keras`: Trained LSTM model
+- `tokenizer.pickle`: Tokenizer for encoding input text
 - `sherlock.txt`: Text data used for training
 - `requirements.txt`: Python dependencies
 
